@@ -1,13 +1,11 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
-const char* COLOR_END = "\033[0m";
-const char* RED ="\033[1;31m";   //.
-const char* GREEN ="\033[1;32m";  //.
-const char* YELLOW ="\033[1;33m";   //.
-const char* BLUE ="\033[1;34m";   //.
-const char* MAGENTA = "\033[0;35m";  //.
-const char* CYAN = "\033[0;36m";  //.
+extern const char* COLOR_END;
+extern const char* RED;
+extern const char* GREEN;
+extern const char* YELLOW;
+extern const char* CYAN;
 
 typedef struct Student{
     int id;
