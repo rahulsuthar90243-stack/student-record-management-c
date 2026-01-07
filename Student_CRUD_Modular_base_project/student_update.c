@@ -43,29 +43,26 @@ void update_student(Student *student){
         switch (press){
             case 1:
                 update_id(student, course_choice);
-                update_view(student);
                 break;
             case 2:
                 update_name(student, course_choice);
-                update_view(student);
                 break;
             case 3:
                 update_course(student, course_choice);
-                update_view(student);
                 break;
             case 4:
                 update_semester(student, course_choice);
-                update_view(student);
                 break;
             case 5:
                 update_gpa(student, course_choice);
-                update_view(student);
                 break;
             case 0:
                 return;        
             default:
                 printf("%s\nInvalid Option Press!%s", CYAN, COLOR_END);
         }
+
+        update_view(student);
 
     }
 
