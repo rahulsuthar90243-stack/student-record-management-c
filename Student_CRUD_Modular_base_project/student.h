@@ -1,6 +1,10 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
+#include <stdio.h>
+#include <string.h>
+
+
 extern const char* COLOR_END;
 extern const char* RED;
 extern const char* GREEN;
