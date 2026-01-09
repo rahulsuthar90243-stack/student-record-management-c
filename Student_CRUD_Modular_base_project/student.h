@@ -20,7 +20,11 @@ typedef struct Student{
 } Student;
 
 void print_menu();
+
 void add_student(Student *student);
+// Duplocate ID Detection
+int is_id_exists(int id);
+
 void search_student(Student *student);
 void delete_student(Student *student);
 void view_all_student(Student *student);
