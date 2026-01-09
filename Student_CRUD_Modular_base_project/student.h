@@ -39,6 +39,7 @@ void update_semester(Student *student, char course_choice[]);
 void update_gpa(Student *student, char course_choice[]);
 void update_view(Student *student);
 
-
+// Statistics Dashboard
+void view_statistics(Student *student);
 
 #endif
