@@ -14,8 +14,18 @@ void add_student(Student *student){
     student->name[strcspn(student->name, "\n")] = 0;
 
 
-    printf("\nEnter student ID: ");
-    scanf("%d", &student->id);
+    
+   
+    do{
+       printf("\nEnter student ID: ");
+       scanf("%d", &student->id);
+
+       if(is_id_exists(student->id)){
+        printf("%s\nThis ID already exists. Please enter a different ID.%s", RED, COLOR_END);
+       }
+
+    }while(is_id_exists(student->id));
+
     getchar();
 
     printf("\nEnter student course: ");
