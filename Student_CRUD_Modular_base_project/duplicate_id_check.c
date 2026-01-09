@@ -10,6 +10,7 @@ int is_id_exists(int id){
 
     while(fread(&temp, sizeof(Student), 1, fp)){
         if(temp.id == id){
+            fclose(fp);
             return 1;
         }
     }
