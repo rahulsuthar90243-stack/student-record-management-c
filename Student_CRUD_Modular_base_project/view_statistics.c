@@ -11,6 +11,9 @@ float total_gpa = 0;
 float highest_gpa = 0;
 
  // Course counters
+ CourseStat starts[30];
+ int course_total = 0;
+ int found;
  
 while(fread(student, sizeof(Student), 1, fp)){
     total_student++;
@@ -20,6 +23,23 @@ while(fread(student, sizeof(Student), 1, fp)){
         highest_gpa == student->gpa;
     }
 
+    found = 0;
+    for(int i = 0; i < course_total; i++){
+        if(strcmp(starts[i].course, student ->course) == 0){
+            starts[i].count++;
+            found = 1;
+            break;
+        }
+    }
+
+    if(found = 0 && course_total < 30){
+        if(strcpy(starts[course_total].course, student->course)){
+            starts[course_total].count++;
+            course_total++;
+        }
+    }
+
 }
+fclose(fp);
 
 }
