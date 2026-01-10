@@ -42,6 +42,6 @@ while(fread(student, sizeof(Student), 1, fp)){
 }
 fclose(fp);
 
-dashboard_output(total_student, total_gpa / total_student, highest_gpa, starts[], course_total);
+dashboard_output(total_student, total_gpa / total_student, highest_gpa, starts, course_total);
 
 }
