@@ -11,7 +11,7 @@ void dashboard_output(int total_students, float avg_gpa, float highest_gpa, Cour
      printf("\n\nCourse-wise Student Count:");
       
      for(int i = 0; i < course_total; i++){
-        printf("\n%s   :%d", stats[i].course, stats[i].count);
+        printf("\n%-10s   :%d", stats[i].course, stats[i].count);
      }
 
     printf("\n=========================================\n");
