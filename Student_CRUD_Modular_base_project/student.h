@@ -19,6 +19,11 @@ typedef struct Student{
     int semester;
 } Student;
 
+typedef struct {
+    char course[30];
+    int count;
+}CourseStat;
+
 void print_menu();
 
 void add_student(Student *student);
