@@ -20,7 +20,7 @@ while(fread(student, sizeof(Student), 1, fp)){
     total_gpa += student->gpa;
 
     if(student->gpa > highest_gpa){
-        highest_gpa == student->gpa;
+        highest_gpa = student->gpa;
     }
 
     found = 0;
@@ -32,7 +32,7 @@ while(fread(student, sizeof(Student), 1, fp)){
         }
     }
 
-    if(found = 0 && course_total < 30){
+    if(!found && course_total < 30){
         if(strcpy(starts[course_total].course, student->course)){
             starts[course_total].count++;
             course_total++;
