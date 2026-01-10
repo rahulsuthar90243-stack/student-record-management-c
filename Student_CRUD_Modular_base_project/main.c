@@ -39,7 +39,7 @@
             printf("%s\n------------------------------%s", CYAN, COLOR_END);
             return 0;          
         default:
-            if(choice > 5){
+            if(choice > 6){
             printf("%s\nInvalid Choice%s", CYAN, COLOR_END);
             }
         }
