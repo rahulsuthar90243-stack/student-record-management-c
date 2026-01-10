@@ -46,5 +46,7 @@ void update_view(Student *student);
 
 // Statistics Dashboard
 void view_statistics(Student *student);
+void dashboard_output(int total_students, float avg_gpa, float highest_gpa, CourseStat stats[], int course_total);
+
 
 #endif
