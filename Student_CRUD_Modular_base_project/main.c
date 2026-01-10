@@ -28,6 +28,10 @@
         case 5:
             delete_student(&student);
             break;
+         case 6:
+            view_statistics(&student);
+            break;
+
         case 0:
             printf("%s\nProgram terminated successfully. Thank you for visiting.%s", CYAN, COLOR_END);
             printf("%s\n\n------------------------------%s", CYAN, COLOR_END);
