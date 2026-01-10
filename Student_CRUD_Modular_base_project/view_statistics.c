@@ -11,7 +11,7 @@ float total_gpa = 0;
 float highest_gpa = 0;
 
  // Course counters
- CourseStat starts[30];
+ CourseStat starts[30] = {0};
  int course_total = 0;
  int found;
  
