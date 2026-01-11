@@ -14,6 +14,7 @@ void delete_student(Student *student){
 
     printf("\nPlease, enter specific course: ");
     scanf("%s", course_copy);
+    normalize_course(course_copy, sizeof(course_copy));
 
     printf("\n ID     Name        Course       Semester    GPA");
     printf("\n-----------------------------------------------");
