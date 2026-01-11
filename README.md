@@ -1,3 +1,100 @@
+<h1 align="center">🎓 Student Record Management System (C Language)</h1>
+
+<p align="center"><img src="https://i.imghippo.com/files/IORd4676mPM.png"></p>
+
+<p align="center">
+A <b>modular and feature-rich Student Record Management System</b> developed using  
+<b>C Programming Language</b>, demonstrating real-world file handling and structured programming concepts.
+</p>
+
+<hr>
+<h2>Project Screenshots:</h2>
+<img src="https://i.imghippo.com/files/ZcBE6582Kg.png" alt="project-screenshot" width="1000" height="500/">
+
+<img src="https://i.imghippo.com/files/JQt2041Leo.png" alt="project-screenshot" width="900" height="500/">
+
+<img src="https://i.imghippo.com/files/iwDz3494NMM.png" width="450" height="400/">
+
+<img src="https://i.imghippo.com/files/kBBQ8078dkc.png" alt="project-screenshot" width="1000" height="500/">
+<img src="https://i.imghippo.com/files/PBjr3356g.png" alt="project-screenshot" width="1000" height="500/">
+
+
+<h2>🚀 Project Versions</h2>
+
+<h3>🔹 Old Version (Basic)</h3>
+<ul>
+  <li>Simple CRUD operations</li>
+  <li>Limited validation</li>
+  <li>Single-file structure</li>
+</ul>
+
+<h3>🔹 New Version (Advanced Modular System)</h3>
+<p>
+This upgraded version demonstrates <b>real-world programming practices</b>,
+<b>modular design</b>, and <b>advanced file handling techniques</b>.
+</p>
+
+<hr>
+
+<h2>✨ Features</h2>
+<ul>
+  <li>✔ Modular Programming (Multiple <code>.c</code> files)</li>
+  <li>✔ Add / View / Search / Update / Delete Student Records</li>
+  <li>✔ Duplicate Student ID Detection</li>
+  <li>✔ Course Normalization (Case-Insensitive)</li>
+  <li>✔ Statistics Dashboard (GPA, Course-wise Count)</li>
+  <li>✔ Backup & Restore System</li>
+  <li>✔ Search History Log with Date & Time</li>
+  <li>✔ Improved Menu & Colored Console UI</li>
+</ul>
+
+<hr>
+
+<h2>🛠 Technologies Used</h2>
+<ul>
+  <li>C Programming Language</li>
+  <li>File Handling (<code>fread</code>, <code>fwrite</code>)</li>
+  <li>Structures</li>
+  <li>Modular Design</li>
+  <li>ANSI Color Codes</li>
+</ul>
+
+<hr>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
+Student-Record-System/
+│
+├── main.c
+├── student.c
+├── statistics.c
+├── backup.c
+├── search_history.c
+├── student.h
+├── student.dat
+├── backup.dat
+└── README.md
+</pre>
+
+<hr>
+
+<h2 align="center">👨‍💻 Developed By</h2>
+<p align="center">
+<b>Rahul</b><br>
+C Programming | File Handling | Modular Design
+</p>
+
+
+
+
+
+
+
+
+
+
+
 <h1 align="center" id="title">Student Management System | C Programming old project</h1>
 
 <p align="center"><img src="https://github.com/rahulsuthar90243-stack/student-record-management-c/raw/a929220aec6ec2d8d095c9fc86d54331a93955fa/SMS.img.png" alt="project-image"></p>
