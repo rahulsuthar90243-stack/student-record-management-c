@@ -27,6 +27,7 @@ void search_student(Student *student){
                
         }
     }
+    log_search(id, found);
         if(found != 1){
         printf("%s\nStudent not found in this ID!!!%s", CYAN, COLOR_END);
         }
