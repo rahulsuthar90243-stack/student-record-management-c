@@ -28,10 +28,15 @@
         case 5:
             delete_student(&student);
             break;
-         case 6:
+        case 6:
             view_statistics(&student);
             break;
-
+        case 7:
+            backup_data();
+            break;
+        case 8:
+            restore_data();
+            break;    
         case 0:
             printf("%s\nProgram terminated successfully. Thank you for visiting.%s", CYAN, COLOR_END);
             printf("%s\n\n------------------------------%s", CYAN, COLOR_END);
@@ -39,7 +44,7 @@
             printf("%s\n------------------------------%s", CYAN, COLOR_END);
             return 0;          
         default:
-            if(choice > 6){
+            if(choice > 8){
             printf("%s\nInvalid Choice%s", CYAN, COLOR_END);
             }
         }
