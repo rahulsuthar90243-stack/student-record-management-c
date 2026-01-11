@@ -32,6 +32,8 @@ void add_student(Student *student){
     fgets(student->course, sizeof(student->course), stdin);
     student->course[strcspn(student->course, "\n")] = 0;
 
+    
+    normalize_course(student->course, sizeof(student->course));
 
     printf("\nEnter student gpa: ");
     scanf("%f", &student->gpa);
