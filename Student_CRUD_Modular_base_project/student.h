@@ -33,6 +33,8 @@ int is_id_exists(int id);
 void normalize_course(char course[], int size);
 
 void search_student(Student *student);
+void log_search(int id, int found);
+
 void delete_student(Student *student);
 void view_all_student(Student *student);
 
