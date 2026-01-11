@@ -13,6 +13,7 @@ void update_student(Student *student){
     printf("\n\nUpdate student records");
     printf("\nPlease, enter specific course: ");
     scanf("%s", course_choice);
+    normalize_course(course_choice, sizeof(course_choice));
 
     printf("\n ID     Name        Course       Semester    GPA");
     printf("\n-----------------------------------------------");
