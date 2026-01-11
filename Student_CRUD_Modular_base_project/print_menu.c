@@ -9,5 +9,6 @@ void print_menu(){
     printf("%s\n6.view statistics%s", YELLOW, COLOR_END);
     printf("%s\n7.Backup Student Data%s", YELLOW, COLOR_END);
     printf("%s\n8.Restore Student Data%s", YELLOW, COLOR_END);
+    printf("%s\n9.View Search History\n", YELLOW, COLOR_END);
     printf("%s\n0.Exit%s" , YELLOW, COLOR_END);
 }
