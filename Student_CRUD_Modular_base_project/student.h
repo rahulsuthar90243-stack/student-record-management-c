@@ -29,6 +29,8 @@ void print_menu();
 void add_student(Student *student);
 // Duplocate ID Detection
 int is_id_exists(int id);
+// Course Normalizetion
+void normalize_course(char course[]);
 
 void search_student(Student *student);
 void delete_student(Student *student);
