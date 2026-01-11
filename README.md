@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Student Management System | C Programming</h1>
+<h1 align="center" id="title">Student Management System | C Programming old project</h1>
 
 <p align="center"><img src="https://github.com/rahulsuthar90243-stack/student-record-management-c/raw/a929220aec6ec2d8d095c9fc86d54331a93955fa/SMS.img.png" alt="project-image"></p>
 
