@@ -36,7 +36,10 @@
             break;
         case 8:
             restore_data();
-            break;    
+            break;
+        case 9:
+            view_search_history();
+            break;        
         case 0:
             printf("%s\nProgram terminated successfully. Thank you for visiting.%s", CYAN, COLOR_END);
             printf("%s\n\n------------------------------%s", CYAN, COLOR_END);
@@ -44,7 +47,7 @@
             printf("%s\n------------------------------%s", CYAN, COLOR_END);
             return 0;          
         default:
-            if(choice > 8){
+            if(choice > 9){
             printf("%s\nInvalid Choice%s", CYAN, COLOR_END);
             }
         }
