@@ -51,4 +51,8 @@ void view_statistics(Student *student);
 void dashboard_output(int total_students, float avg_gpa, float highest_gpa, CourseStat stats[], int course_total);
 
 
+// Backup data and Restore data
+void backup_data();
+void restore_data();
+
 #endif
