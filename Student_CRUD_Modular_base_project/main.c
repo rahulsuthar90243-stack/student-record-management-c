@@ -2,9 +2,10 @@
 
  int main(){
  Student student; 
-      printf("%s\n\n------------------------------------%s", CYAN, COLOR_END);
-      printf("%s\n|      Student Record System       |%s", CYAN, COLOR_END);
-      printf("%s\n------------------------------------%s", CYAN, COLOR_END);
+      printf("%s\n\n========================================%s", CYAN, COLOR_END);
+      printf("%s\n        STUDENT RECORD SYSTEM       %s", CYAN, COLOR_END);
+      printf("%s\n    (File-Based Management System)  %s", CYAN, COLOR_END);
+      printf("%s\n========================================%s", CYAN, COLOR_END);
     while (1){
       int choice;
         print_menu();
