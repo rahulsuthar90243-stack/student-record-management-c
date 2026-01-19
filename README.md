@@ -1,6 +1,6 @@
 <h1 align="center">🎓 Student Record Management System (C Language)</h1>
 
-<p align="center"><img src="https://i.imghippo.com/files/IORd4676mPM.png"></p>
+<p align="center"><img src="https://github.com/rahulsuthar90243-stack/student-record-management-c/blob/main/project.png?raw=true"></p>
 
 <p align="center">
 A <b>modular and feature-rich Student Record Management System</b> developed using  
@@ -9,14 +9,16 @@ A <b>modular and feature-rich Student Record Management System</b> developed usi
 
 <hr>
 <h2>Project Screenshots:</h2>
-<img src="https://i.imghippo.com/files/ZcBE6582Kg.png" alt="project-screenshot" width="1000" height="500/">
+<img src="https://github.com/rahulsuthar90243-stack/student-record-management-c/blob/main/img4.png?raw=true" alt="project-screenshot" width="1000" height="500/">
 
-<img src="https://i.imghippo.com/files/JQt2041Leo.png" alt="project-screenshot" width="900" height="500/">
+<img src="https://github.com/rahulsuthar90243-stack/student-record-management-c/blob/main/img5.png?raw=true" alt="project-screenshot" width="900" height="500/">
 
-<img src="https://i.imghippo.com/files/iwDz3494NMM.png" width="450" height="400/">
+<img src="https://github.com/rahulsuthar90243-stack/student-record-management-c/blob/main/img7.png?raw=true">
 
-<img src="https://i.imghippo.com/files/kBBQ8078dkc.png" alt="project-screenshot" width="1000" height="500/">
-<img src="https://i.imghippo.com/files/PBjr3356g.png" alt="project-screenshot" width="1000" height="500/">
+<img src="https://github.com/rahulsuthar90243-stack/student-record-management-c/blob/main/ing8.png?raw=true" alt="project-screenshot">
+<img src="https://github.com/rahulsuthar90243-stack/student-record-management-c/blob/main/img11.png?raw=true" alt="project-screenshot">
+<img src="https://github.com/rahulsuthar90243-stack/student-record-management-c/blob/main/img10.png?raw=true" alt="project-screenshot" width="500" height="500/>
+
 
 
 <h2>🚀 Project Versions</h2>
